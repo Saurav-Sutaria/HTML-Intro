@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./res/bg\ image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    border: 1px none solid;
+    background-color: rgba(165, 248, 248, 0.226);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 20% 20px 20%;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 80px;
+    width: 80px;
+    vertical-align: middle;
+}
+.main{
+    text-align: center; 
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    border: 2px solid none;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px 20% 20px 20%;
+    background-color: rgba(85, 76, 76, 0.144);
+}
+.sub{
+    border: 1px solid none;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column; 
+    padding: 5%;
+    display: flex;
+    margin: 20px 10% 20px 10%;
+    background-color: rgba(85, 76, 76, 0.144);
+}
+input[type="submit"]{
+    background-color: rgb(92, 92, 250);
+    font-weight: bolder;
+    font-size: large;
+    width: fit-content;
+    margin: auto;
+    cursor:pointer;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-top: 5px;
+}
